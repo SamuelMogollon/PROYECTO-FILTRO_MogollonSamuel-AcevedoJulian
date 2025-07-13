@@ -1,0 +1,25 @@
+body{
+    background-image: url("../img/pexels-pixabay-159400.png");
+    background-color: black;
+    background-size: cover;
+    width: 100vh;
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+    
+}
+
+.logo1{
+   margin-top: 28vi;
+   margin-left: 60vi;
+   animation: trasnp 5s steps(2) transparent
+}
+
+@keyframes transp {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -550px;
+    }
+} 
