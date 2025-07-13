@@ -1,17 +1,122 @@
 body{
-    background-image: url("../img/pexels-pixabay-159400.png");
     background-color: black;
-    background-size: cover;
-    width: 100vh;
-    overflow: hidden;
-    display: grid;
-    place-content: center;
+    overflow-x: hidden;
+    color: white;
 }
 
-.logo1{
+.Kario{
+    margin-left: 894px;
+    margin-top: -914px;
+}
+
+.Logo2{
+    margin-top: 734px ;
+}
+
+.Logo3{
+    margin-top: 0px;
+}
+
+.Kario2{
+    margin-left: 894px;
+    margin-top: -914px;
+}
+
+.Logo4{
+    margin-top: 734px ;
+}
+
+.Logo_karioMedia{
+    width: 20vh;
+    height: 20vh;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    margin-top: -934px;
+    margin-left: 894px;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
     display: flex;
-    width: 1vi;
-    height: 8vi;
-    margin-top: 20vi;
-    margin-left: 50vi;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: -967px; 
+    min-height: 400vh;
+    margin-left: 144px;
+}
+
+.login-box {
+    background: white;
+    border-radius: 2rem;
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    color: black;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.login-logo {
+    width: 60px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.login-box h2 {
+    font-size: 1.2rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+.login-box h2 span {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.sub-text {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.input-field {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.login-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #FF721B;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-button:hover {
+    background-color: #e96315;
+}
+
+.help-text {
+    margin-top: 1.2rem;
+    font-size: 0.75rem;
+    color: #444;
 }
