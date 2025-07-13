@@ -1,168 +1,45 @@
 
 body{
+    background-image: url(../img/fondo.png);
     background-color: black;
-    overflow-x: hidden;
-    color: white;
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', sans-serif;
+    background-size: cover;
+    width: 100vh;
+    overflow: hidden;
+    display: grid;
+    place-content: center;
 }
 
-.Fondo1{
-    margin-top: 0px;
+.logo1{
+    display: none ;
+    width: 1vi;
+    height: 8vi;
+    margin-top: 20vi;
+    margin-left: 50vi;
+    animation: desvanecer 3s;
 }
 
-.Fondo2{
-    margin-top: 734px;
-}
-
-.Fondo3{
-    margin-top: 0px;
-}
-
-.Fondo4{
-    margin-top: 734px;
-}
-
-.Kario{
-    margin-left: 999px;
-    margin-top: -914px;
-}
-
-.Kario2{
-    margin-left: 999px;
-    margin-top: -914px;
-}
-
-.karioMedia{
-    width: 20vh;
-    height: 20vh;
-    color: white;
-    text-align: center;
-    line-height: 200px;
-    margin-top: -934px;
-    margin-left: 894px;
-}
-
-.login-container1{
+.rectangulo1{
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: -967px;
-    margin-left: 194px;
-    min-height: 400vh;
-}
-
-.login-box{
     background: white;
-    border-radius: 6rem;
-    padding: 2rem;
-    width: 100%;
-    max-width: 400px;
+    border-radius: 3vi;
+    padding: 15vi;
+    width: 10vi;
+    height: 5vi;
     text-align: center;
-    color: black;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    margin-top: 8vi;
+    margin-left: 50vi;
+    animation: aparecer 3s;
 }
 
-.login-logo{
-    width: 60px;
-    height: auto;
-    margin-bottom: 1rem;
+
+@keyframes desvanecer{
+    0% {opacity: 100%;}
+    50% {opacity: 0%;}
+    100% {opacity: 0%;}
 }
 
-.login-box h2{
-    font-size: 1.2rem;
-    margin: 0;
-    margin-bottom: 0.5rem;
-    line-height: 1.5;
+@keyframes aparecer{
+    0% {opacity: 0%;}
+    50% {opacity: 0%;}
+    100% {opacity: 100%;}
 }
-
-.login-box h2 span{
-    font-weight: bold;
-    font-size: 1.3rem;
-}
-
-.sub-text{
-    font-size: 0.9rem;
-    margin-bottom: 1.5rem;
-    color: #333;
-}
-
-.input-field{
-    width: 100%;
-    padding: 0.75rem;
-    margin-bottom: 1rem;
-    border-radius: 10px;
-    border: 1px solid #ccc;
-    font-size: 1rem;
-}
-
-.login-button{
-    width: 100%;
-    padding: 0.75rem;
-    background-color: #FF721B;
-    border: none;
-    color: white;
-    font-weight: bold;
-    border-radius: 10px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.login-button:hover{
-    background-color: #e96315;
-}
-
-.help-text{
-    margin-top: 1.2rem;
-    font-size: 0.75rem;
-    color: #444;
-}
-
-.Fondo5{
-    margin-top: 559px;
-    position: relative;
-    z-index: 10;
-}
-
-.welcome-container{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: -940px;
-    min-height: 100vh;
-    margin-left: 144px;
-}
-
-.welcome-box {
-    background: white;
-    border-radius: 5rem;
-    padding: 2rem;
-    width: 100%;
-    max-width: 400px;
-    text-align: center;
-    color: black;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-    margin-top: 26px;
-}
-
-.perfil{
-    width: 80px;
-    height: 80px;
-    border-radius: 60%;
-    object-fit: cover;
-    margin: 1rem auto;
-}
-
-.welcome-box h3{
-    font-size: 1.1rem;
-    margin: 0.5rem 0 0 0;
-}
-
-.user-role{
-    font-size: 0.8rem;
-    color: #555;
-    margin-top: 0.2rem;
-}
-
