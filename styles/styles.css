@@ -6,20 +6,12 @@ body{
     overflow: hidden;
     display: grid;
     place-content: center;
-    
 }
 
 .logo1{
-   margin-top: 28vi;
-   margin-left: 60vi;
-   animation: trasnp 5s steps(2) transparent
+    display: flex;
+    width: 1vi;
+    height: 8vi;
+    margin-top: 20vi;
+    margin-left: 50vi;
 }
-
-@keyframes transp {
-    from {
-        background-position: 0px;
-    }
-    to {
-        background-position: -550px;
-    }
-} 
