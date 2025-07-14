@@ -129,7 +129,7 @@ body {
   
   .user-photo {
     width: 10vi;
-    height: 10vi;
+    height: 10vh;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 2vh;
