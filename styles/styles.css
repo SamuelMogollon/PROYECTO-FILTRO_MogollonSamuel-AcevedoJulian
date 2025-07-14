@@ -19,8 +19,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: aparecer 2s ease-in-out forwards, desvanecer 2s ease-in-out forwards;
-    animation-delay: 0s, 2s;
+    animation: aparecer 2s ease-in-out forwards, desvanecer 2s ease-in-out forwards;  
     opacity: 0;
   }
   
@@ -36,16 +35,16 @@ body {
     background: white;
     border-radius: 8vh;
     padding: 5vi;
-    width: 50vw;
+    width: 45vw;
     max-width: 90vh;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     animation: aparecer 2s ease-in-out forwards, desvanecer 2s ease-in-out forwards;
-    animation-delay: 10s, 12s;
+    animation-delay: 3s, 10s;
     opacity: 0;
-    margin-left: -55vh;
+    margin-left: -35vh;
     margin-top: -35vh;
   }
   
@@ -107,7 +106,7 @@ body {
     background: white;
     border-radius: 7vh;
     padding: 5vh;
-    width: 55vw;
+    width: 45vw;
     max-width: 90vi;
     position: absolute;
     top: 50%;
@@ -115,9 +114,9 @@ body {
     transform: translate(-50%, -50%);
     opacity: 0;
     animation: aparecer 2s ease-in-out forwards, desvanecer 2s ease-in-out forwards;
-    animation-delay: 14s, 16s;
-    margin-left: -55vh;
-    margin-top: -35vh;
+    animation-delay: 12s, 15s;
+    margin-left: -35vh;
+    margin-top: -25vh;
   }
   
   .bienvenida-container h2 {
@@ -128,8 +127,8 @@ body {
   }
   
   .user-photo {
-    width: 10vi;
-    height: 10vh;
+    width: 9vh;
+    height: 8vh;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 2vh;
@@ -158,7 +157,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     animation: aparecer 2s ease-in-out forwards, desvanecer 2s ease-in-out forwards;
-    animation-delay: 18s, 20s;
+    animation-delay: 17s, 19s;
     opacity: 0;
   }
   
