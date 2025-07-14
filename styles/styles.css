@@ -1,45 +1,178 @@
-
-body{
+body {
     background-image: url(../img/fondo.png);
     background-color: black;
     background-size: cover;
-    width: 100vh;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
-    display: grid;
-    place-content: center;
-}
-
-.logo1{
-    display: none ;
-    width: 1vi;
-    height: 8vi;
-    margin-top: 20vi;
-    margin-left: 50vi;
-    animation: desvanecer 3s;
-}
-
-.rectangulo1{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    position: relative;
+  }
+  
+  .logo1 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: aparecer 2s ease-in-out forwards, desvanecer 2s ease-in-out forwards;
+    animation-delay: 0s, 2s;
+    opacity: 0;
+  }
+  
+  .logo1 img {
+    width: 12vh;
+    height: auto;
+  }
+  
+  .rectangulo1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: white;
-    border-radius: 3vi;
-    padding: 15vi;
-    width: 10vi;
-    height: 5vi;
+    border-radius: 8vh;
+    padding: 5vi;
+    width: 50vw;
+    max-width: 90vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: aparecer 2s ease-in-out forwards, desvanecer 2s ease-in-out forwards;
+    animation-delay: 10s, 12s;
+    opacity: 0;
+    margin-left: -55vh;
+    margin-top: -35vh;
+  }
+  
+  .login-logo {
+    width: 8vi;
+    margin-bottom: 2vh;
+  }
+  
+  .rectangulo1 h2 {
     text-align: center;
-    margin-top: 8vi;
-    margin-left: 50vi;
-    animation: aparecer 3s;
-}
-
-
-@keyframes desvanecer{
-    0% {opacity: 100%;}
-    50% {opacity: 0%;}
-    100% {opacity: 0%;}
-}
-
-@keyframes aparecer{
-    0% {opacity: 0%;}
-    50% {opacity: 0%;}
-    100% {opacity: 100%;}
-}
+    font-size: 2vh;
+    margin-bottom: 1vh;
+  }
+  
+  .sub-text {
+    font-size: 1.5vh;
+    text-align: center;
+    margin-bottom: 2vh;
+    color: #444;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 1.5vi;
+    margin-bottom: 2vh;
+    border-radius: 1vh;
+    border: 0.1vi solid #ccc;
+    font-size: 1.5vh;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 1.5vh;
+    background-color: #FF721B;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 1vh;
+    font-size: 1.5vh;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #e96315;
+  }
+  
+  .help-text {
+    margin-top: 2vh;
+    font-size: 1.2vh;
+    color: #555;
+    text-align: center;
+  }
+  
+  .bienvenida-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border-radius: 7vh;
+    padding: 5vh;
+    width: 55vw;
+    max-width: 90vi;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: aparecer 2s ease-in-out forwards, desvanecer 2s ease-in-out forwards;
+    animation-delay: 14s, 16s;
+    margin-left: -55vh;
+    margin-top: -35vh;
+  }
+  
+  .bienvenida-container h2 {
+    font-size: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 1.5vh;
+    text-align: center;
+  }
+  
+  .user-photo {
+    width: 10vi;
+    height: 10vi;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2vh;
+  }
+  
+  .bienvenida-container h3 {
+    font-size: 1.8vh;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .user-role {
+    font-size: 1.4vh;
+    color: #555;
+    margin-top: 1vh;
+    text-align: center;
+  }
+  
+  .logo-final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: aparecer 2s ease-in-out forwards, desvanecer 2s ease-in-out forwards;
+    animation-delay: 18s, 20s;
+    opacity: 0;
+  }
+  
+  .logo-final img {
+    width: 12vh;
+    height: auto;
+  }
+  
+  @keyframes desvanecer {
+    0%   { opacity: 1; }
+    100% { opacity: 0; visibility: hidden; }
+  }
+  
+  @keyframes aparecer {
+    0%   { opacity: 0; transform: scale(0.95); }
+    100% { opacity: 1; transform: scale(1); }
+  }
