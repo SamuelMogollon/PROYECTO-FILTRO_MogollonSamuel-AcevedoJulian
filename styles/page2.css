@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.Exit {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.header-boton {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.textoPanel {
+    display: flex;
+    justify-content: center;
+    padding: 1vw;
+}
+
+.textoDcp {
+    display: flex;
+    justify-content: center;
+}
+
+.tamañoDpantalla {
+    display: flex;
+    justify-content: center;
+}
+.indicadores,.titulo {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    width: 90%;
+    border: 0.1rem solid black;
+    border-radius: 10rem;
+    align-items: center;
+    text-align: center;
+    padding: 0.8vw;
+}
+
+.tamaño {
+    display: flex;
+    justify-content: center;
+}
+
+.numerito1 {
+    display: flex;
+    background-image: url("/img/Icon\ awesome-circle-notch.svg");
+    width: 4.4vi;
+    height: 4.4vi;
+    align-items: center;
+    justify-content: center;
+}
+
+.numerito2 {
+    display: flex;
+    background-image: url("/img/Icon\ awesome-circle-notch.svg");
+    width: 4.4vi;
+    height: 4.4vi;
+    align-items: center;
+    justify-content: center;
+}
+
+.numerito3 {
+    display: flex;
+    background-image: url("/img/Icon\ awesome-circle-notch.svg");
+    width: 4.4vi;
+    height: 4.4vi;
+    align-items: center;
+    justify-content: center;
+}
+
+.numerito4 {
+    display: flex;
+    background-image: url("/img/Icon\ awesome-circle-notch.svg");
+    width: 4.4vi;
+    height: 4.4vi;
+    align-items: center;
+    justify-content: center;
+}
+
+.numerito5 {
+    display: flex;
+    background-image: url("/img/Icon\ awesome-circle-notch.svg");
+    width: 4.4vi;
+    height: 4.4vi;
+    align-items: center;
+    justify-content: center;
+}
+
+.numerito6 {
+    display: flex;
+    background-image: url("/img/Icon\ awesome-circle-notch.svg");
+    width: 4.4vi;
+    height: 4.4vi;
+    align-items: center;
+    justify-content: center;
+}
+
+.hambur1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.basura1 {
+    display: flex;
+}
+
+.basura2 {
+    display: flex;
+}
+
+.basura3 {
+    display: flex;
+}
+
+.basura4 {
+    display: flex;
+}
+
+.basura5 {
+    display: flex;
+}
+
+.basura6{
+    display: flex;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.voton2 {
+    border: none;
+    outline: none;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+}
+.eliminar1 {
+    display: flex;
+    justify-content: center;
+    width: 14%;
+    height: 2rem;
+    background: orangered;
+    border-radius: 2rem;
+    margin-top: 2%;
+    text-decoration: none;
+}

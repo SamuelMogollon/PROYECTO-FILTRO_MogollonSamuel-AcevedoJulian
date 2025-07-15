@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    height: 100vb;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.Exit {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.header-boton {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textoPanel {
+    display: flex;
+    justify-content: center;
+    padding: 1vw;
+}
+
+.textoDcp {
+    display: flex;
+    justify-content: center;
+}
+
+.cuadro {
+    display: flex;
+    background-color: #FFC29C;
+    border-radius: 2vw;
+    border: none;
+    padding: 1vw;
+}
+
+.cuadro2 {
+    display: flex;
+    background-color: #FFC29C;
+    border-radius: 2vw;
+    border: none;
+    padding: 1vw;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.voton2 {
+    border: none;
+    outline: none;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+}
+
+.enviar1 {
+    display: flex;
+    justify-content: center;
+    width: 14%;
+    height: 2rem;
+    background: orangered;
+    border-radius: 2rem;
+    margin-top: 2%;
+    text-decoration: none;
+}
